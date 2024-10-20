@@ -1,0 +1,1111 @@
+*,::before,::after{ margin:0; box-sizing: border-box;}
+a{ text-decoration: none;}
+button{  cursor: pointer; padding: 0;}
+img{ vertical-align: bottom;}
+iframe{ border: none;}
+:disabled{ cursor: not-allowed;}
+label{ display: inline-block;}
+abbr[title]{ cursor: help;}
+ul{list-style: none; padding: 0; }
+
+html{ font-size: 15px;
+     --red:#ca3c3c;
+     --ff:proxima, sans-serif;
+}
+body{
+     font:100 16px var(--ff);
+}
+.reg{ font-weight: 400; }
+.container{
+     max-width: 1200px;
+     margin: auto;
+     padding: 0 1rem;
+}
+.thin{ font-weight: 100;}
+
+.row{ display: flex; flex-flow: row wrap; margin:  0 -1rem; }
+
+[class^="col-"]{ flex: 1 0 auto; padding: 0 1rem; }
+
+.col-1{ flex-basis:calc(1/12 * 100%); max-width: calc(1/12 * 100%); }
+.col-2{ flex-basis:calc(2/12 * 100%); max-width: calc(2/12 * 100%); }
+.col-3{ flex-basis:calc(3/12 * 100%); max-width: calc(3/12 * 100%); }
+.col-4{ flex-basis:calc(4/12 * 100%); max-width: calc(4/12 * 100%); }
+.col-5{ flex-basis:calc(5/12 * 100%); max-width: calc(5/12 * 100%); }
+.col-6{ flex-basis:calc(6/12 * 100%); max-width: calc(6/12 * 100%); }
+.col-7{ flex-basis:calc(7/12 * 100%); max-width: calc(7/12 * 100%); }
+.col-8{ flex-basis:calc(8/12 * 100%); max-width: calc(8/12 * 100%); }
+.col-9{ flex-basis:calc(9/12 * 100%); max-width: calc(9/12 * 100%); }
+.col-10{ flex-basis:calc(10/12 * 100%); max-width: calc(10/12 * 100%); }
+.col-11{ flex-basis:calc(11/12 * 100%); max-width: calc(11/12 * 100%); }
+.col-12{ flex-basis:calc(12/12 * 100%); max-width: calc(12/12 * 100%); }
+.flex{ display: flex;}
+.align-center{ align-items: center;}
+.justify-right{ justify-content: right;}
+.justify-center{ justify-content: center;}
+.justify-space-bet{ justify-content: space-between;}
+
+
+/*leyout*/
+
+header{
+     background-color: #265c55;
+     position: sticky;
+     top: 0;
+     height: 130px;
+}
+.bunside{
+     display: none;
+}
+.logo{
+     background-color: #fff;
+     color: #242424;
+     text-align: center;
+     border-radius: 84px;
+     margin-top: 10px;
+     height: 105px;
+}
+.logo h1{
+   font-size: 20px;
+}
+.logo h3{
+     padding-top: 25px;
+     margin-bottom: -23px;
+     font-size: 17px;
+}
+.logo h2 {
+    margin-top: -23px;
+    font-size: 19px;
+}
+nav ul {
+     margin-left: 225px;
+}
+nav ul li{
+     float: left;
+}
+nav ul li a{
+     color: #fff;
+     font-size: 30px;
+     border-right: 3px solid;
+     text-align: center;
+     padding: 5px 5px 5px 3px;
+}
+nav {
+     display:flex;
+     margin-top: 45px;
+}
+.bun{
+     background-color: #910115;
+     color: #fff;
+     border-radius: 10px;
+     border: none;
+     font-size: 24px;
+     width: 110px ;
+     height: 65px ;
+     margin: -16px 20px 0px 31px ;
+}
+
+/*socson*/
+
+.ware{
+     background-size: cover;
+     height: 716px;
+}
+.ware .bainertext h1{
+     color: #fff;
+     margin-top: 151px;
+     font-size: 57px;
+     margin-left: 41px;
+}
+.ware .bainertext p{
+     color: #fff;
+     margin-top: 15px;
+     font-size: 27px;
+     margin-left: 41px;
+}
+.ware .bainertext .bun2{
+    width: 300px;
+    height: 60px;
+    margin-left: 104px;
+    background-color: #8c9e00;
+    color: #fff;
+    border-radius: 30px;
+    border: none;
+    margin-top: 99px;
+    font-size: 33px ;
+}
+
+/*socson2*/
+
+.ware2{
+     height: auto;
+     background-color: #efbd63;
+     background-size: cover;
+}
+.ware2 .alingcenter h1 {
+     color: #000;
+     font-size: 60px;
+     text-align: center;
+     margin-top: 48px;
+     margin-bottom: 20px;
+}
+
+ .ware2 .container .row img{
+    width: 100%;
+    height: 206px;
+    margin-top: 25px;
+    box-shadow: 0px 0px 13px #000;
+}
+.ware2 .imagestext h2{
+     text-align: left;
+     color: #000;
+     margin-top: 13px;
+     font-size: 29px;
+
+}
+.ware2 .imagestext p{
+     text-align: left;
+     color: #000;
+     margin-top: 20px;
+     font-size: 22px;
+}
+.ware2 .bun3{
+    width: 344px;
+    height: 60px;
+    margin-left: 430px;
+    background-color: #910115;
+    color: #fff;
+    border-radius: 30px;
+    border: none;
+    margin-top: 40px;
+    font-size: 42px ;
+    margin-bottom: 50px;
+}
+
+/*socson3*/
+
+.ware3{
+     background-size: cover;
+     height: 406px;
+}
+.ware3 .col-12{
+     text-align: center;
+}
+.ware3 .sedut h1{
+     color:#fff;
+     font-size: 46px ;
+     margin-top: 101px ;
+}
+.ware3 .sedut p{
+     color:#fff;
+     font-size: 30px;
+     margin-top: 33px;
+}
+
+/*socson4*/
+
+.ware4{
+     background-color: #920317;
+     background-size: cover;
+     height: auto;
+}
+
+.ware4 .loremimg img{
+     width: 100%;
+     height: 282px;
+     margin-top: 86px;
+     filter: drop-shadow(0px 15px 10px #000);
+    
+}
+.ware4 .loremtext h1{
+     text-align: center;
+     color: #fff;
+     font-size: 30px;
+     margin-top: 35px;
+     margin-bottom: 40px;
+}
+.ware4 #imgcenter h1{
+     font-size: 27px;
+}
+
+/*socson5*/
+
+.ware5{
+     background-color: #efbd63;
+     background-size: cover;
+     height: auto;
+}
+
+.ware5 .sedtutu h1{
+     color: #910115;
+     font-size: 42px;
+     margin-top:225px;
+     
+}
+.ware5 .sedtutu p{
+     color: #000;
+     font-size: 29px;
+     margin-top: 25px;
+}
+
+.ware5 .button4 {
+     text-align: center;
+}
+.ware5 .button4 .bun4 {
+    width: 241px;
+    height: 65px;
+    margin-left: 4px;
+    background-color: #910115;
+    color: #fff;
+    border-radius: 30px;
+    border: none;
+    margin-top: 17px;
+    font-size: 40px ;
+}
+
+.ware5 .sedtutuimg img{
+     width: 100%;
+     height: auto;
+     margin-top: 75px;
+     margin-bottom: 75px;
+}
+
+/*socson6*/
+
+.ware6{
+     height: auto;
+     background-color: #910115;
+     background-size: cover;
+}
+
+.ware6 .textcenter h1{
+     color: #fff;
+     font-size: 50px;
+     text-align: center;
+     margin-top: 35px;
+}
+.ware6 .text1 p{
+     color: #fff;
+     font-size: 24px;
+     margin-top: 140px;
+}
+.ware6 .text2 p{
+     color: #fff;
+     font-size: 24px;
+     margin-top: 150px;
+}
+.ware6 .text3 p{
+     color: #fff;
+     font-size: 24px;
+     margin-top: 140px;
+}
+.ware6 .text4 p{
+     color: #fff;
+     font-size: 24px;
+     margin-top: 150px;
+}
+.ware6 .imgcenter img{
+     width: 100%;
+     height: auto;
+     margin-top: 55px;
+     margin-bottom: 70px;
+}
+.ware6 .span {
+     text-align: center;
+}
+.ware6 .span samp{
+     background-color: #fff;
+     width: 12px ;
+     height: 25px ;
+     border-radius: 22px;
+     border: none;
+     margin-top: 30px;
+}
+
+
+/*socson7*/
+
+.ware7{
+     width: 100%;
+     height: 398px;
+     background-size: cover;
+     margin-top: -9px;
+     
+}
+
+.textcenter h1{
+     font-size: 46px ;
+     text-align: center;
+     margin-left: -18px;
+     margin-top: 50px;
+     margin-bottom: 50px;     
+     color: #fff;
+}
+
+.input {
+     float: right;
+}
+.input1{
+     float: left;
+ }
+.col-6{
+     margin-top: 10px;
+}
+ 
+.ware7 input{
+   width: 366px;
+   height: 32px;
+   margin-bottom: 17px;
+   font-weight: 600;
+   font-size: 18px;
+   border: none;
+   padding: 15px;
+}
+.bun5{
+     width: 212px;
+     height: 32px;
+     background-color: #910115;
+     border: none;
+     color: #fff;
+     border-radius: 16px;
+     margin: 0px 0px 0px 73px ;
+     font-size: 19px;
+}
+
+/*socson8*/
+
+.ware8{
+     width: 100%;
+     height: 384px;
+     background-size: cover;
+}
+
+/*footer*/
+
+footer{
+     background-color: #0e0a17;
+     background-size: cover;
+     height: 440px;
+}
+.loremlaft ul{
+     margin-top: 80px;
+ }
+ .loremlaft li{
+     text-align: center;
+     padding: 5px;
+ }
+ .loremlaft a{
+      font-size: 27px;
+      color: #fff;
+ }
+ footer .alingcenter{
+     text-align: center;
+     margin-top: 160px;
+}
+.alingcenter input{
+     width: 350px ;
+     height: 33px;
+     font-size: 19px;
+     padding: 8px;
+     border: none;
+}
+.footerbun{
+     height: 33px;
+     width: 80px;
+     font-size: 20px;
+     background-color: #910115;
+     border: none;
+     color: #fff;
+}
+.loremright ul{
+     margin-top: 108px;
+ }
+ .loremright li{
+     text-align: center;
+     padding: 5px;
+     margin: 15px;
+ }
+ .loremright a{
+      font-size: 27px;
+      color: #fff;
+      padding: 10px;
+ }
+ footer i{
+     color: #fff;
+     font-size: 30px;
+ }
+.col-12text p{
+    color: #fff;
+    text-align: center;
+    font-size: 19px;
+    margin-top: 49px;
+}
+
+/*Risonsiv.style*/
+
+@media(max-width: 425px){
+     
+     .col-a-3{ flex-basis:calc(3/12 * 100%); max-width: calc(3/12 * 100%); }
+     .col-a-4{ flex-basis:calc(4/12 * 100%); max-width: calc(4/12 * 100%); }
+     .col-a-5{ flex-basis:calc(5/12 * 100%); max-width: calc(5/12 * 100%); }
+     .col-a-7{ flex-basis:calc(7/12 * 100%); max-width: calc(7/12 * 100%); }
+     .col-a-8{ flex-basis:calc(8/12 * 100%); max-width: calc(8/12 * 100%); }
+     .col-a-12{ flex-basis:calc(12/12 * 100%); max-width: calc(12/12 * 100%); }
+
+/*header*/
+
+.navbar{
+     display: none;
+}
+
+.bunside{
+     display: block;     
+     float: right;
+     width: 80px;
+     height: 40px;
+     background: transparent;
+     border: 2px solid;
+     border-color: #30265c;
+     margin-top: 40px;
+     margin-right: 10px;
+     border-radius: 10px;
+}
+.bunside .samp {
+    display: block;
+    height: 2px;
+    background: #30265c;
+    width: 70%;
+    margin: 5px auto;
+ }
+
+ /*ware1*/
+
+ .ware{
+     height: 220px;
+ }
+
+ .ware .bainertext h1 {
+     color: #fff;
+     margin-top: 35px;
+     font-size: 20px;
+     margin-left: 12px;
+ }
+ .ware .bainertext p {
+     color: #fff;
+     margin-top: 5px;
+     font-size: 11px;
+     margin-left: 12px;
+ }
+ .ware .bainertext .bun2 {
+     width: 94px;
+     height: 34px;
+     margin-left: 13px;
+     margin-top: 16px;
+     font-size: 14px;
+ }
+
+ /*ware2*/
+
+ .ware2 .alingcenter h1 {
+     font-size: 33px;
+     margin-top: 28px;
+     margin-bottom: 10px;
+ }
+ .ware2 .imagestext h2 {
+     font-size: 25px;
+ }
+ .ware2 .imagestext p {
+     font-size: 18px;
+ }
+ .ware2 .bun3 {
+     width: 145px;
+     height: 40px;
+     margin-left: 35px;
+     margin-top: 20px;
+     font-size: 14px;
+     margin-bottom: 25px;
+ }
+ 
+ /*ware3*/
+
+ .ware3 {
+     height: 109px;
+ }
+ .ware3 .sedut h1 {
+     font-size: 13px;
+     margin-top: 25px;
+ }
+ .ware3 .sedut p {
+     font-size: 6px;
+     margin-top: 12px;
+ }
+
+ /*ware4*/
+
+ .ware4 .loremimg img {
+     height: 100%;
+     margin-top: 30px;
+ }
+ .ware4 .loremtext h1 {
+     font-size: 9px;
+     margin-top: 26px;
+     margin-bottom: 20px;
+ }
+ .ware4 #imgcenter h1 {
+     font-size: 9px;
+ }
+
+/*ware5*/
+
+.ware5 .sedtutu h1 {
+     font-size: 17px;
+     margin-top: 75px;
+ }
+
+ .ware5 .sedtutu p {
+     font-size: 6px;
+     margin-top: 8px;
+ }
+
+ .ware5 .button4 .bun4 {
+     width: 80px;
+     height: 30px;
+     margin-left: -50px;
+     font-size: 11px;
+     margin-top: 15px;
+ }
+ .ware5 .sedtutuimg img {
+     margin-top: 70px;
+     margin-bottom: 35px;
+ }
+
+/*ware6*/
+
+.ware6 .textcenter h1 {
+     font-size: 25px;
+     margin-top: 25px;
+     margin-bottom: 10px;
+ }
+ .ware6 .imgcenter img{
+     margin-top: 10px;
+     margin-bottom: 30px;
+ }
+ .ware6 .text1 p {
+     font-size: 10px;
+     margin-top: 20px;
+ }
+ .ware6 .text2 p {
+     font-size: 10px;
+     margin-top: 50px;
+ }
+ .ware6 .text3 p {
+     font-size: 10px;
+     margin-top: 20px;
+ }
+ .ware6 .text4 p {
+     font-size: 10px;
+     margin-top: 50px;
+ }
+
+ /*ware7*/
+
+.ware7{
+     height: 108px;
+}
+ .ware7 .textcenter h1 {
+     font-size: 18px;
+     margin-top: 8px;
+     margin-bottom: -7px;
+ }
+ .ware7 input {
+     width: 125px;
+     height: 17px;
+     margin-bottom: 3px;
+     font-weight: 700;
+     font-size: 10px;
+     padding: 0px 0px 0px 10px;
+ }
+ .bun5 {
+     width: 100px;
+     height: 22px;
+     margin: 3px 0px 0px 16px;
+     font-size: 15px;
+ }
+
+ /*ware8*/
+
+ .ware8 {
+     height: 104px;
+ }
+
+ /*footer*/
+
+footer{
+     height: 275px;
+}
+
+ .loremlaft ul {
+     margin-top: 20px;
+ }
+ .loremlaft a {
+     font-size: 11px;
+ }
+ .alingcenter input {
+     width: 105px;
+     height: 25px;
+     font-size: 12px;
+     border-radius: 5px;
+ }
+ footer .alingcenter {
+     margin-top: 55px;
+ }
+ .footerbun {
+     width: 60px;
+     height: 25px;
+     font-size: 13px;
+     border-radius: 5px;
+     margin-top: 10px;
+ }
+ .loremright ul {
+     margin-top: 45px;
+ }
+ .loremright li {
+     margin: 0px;
+     padding: 0px 0px 0px 5px;
+ }
+ footer i {
+     font-size: 10px;
+ }
+ .loremright a {
+     font-size: 11px;
+     padding: 0px;
+ }
+ .col-12text p {
+     font-size: 13px;
+     margin-top: 20px;
+ }
+
+}
+@media(min-width: 426px) and (max-width: 768px){
+
+     .col-c-3{ flex-basis:calc(3/12 * 100%); max-width: calc(3/12 * 100%); }
+     .col-c-4{ flex-basis:calc(4/12 * 100%); max-width: calc(4/12 * 100%); }
+     .col-c-5{ flex-basis:calc(5/12 * 100%); max-width: calc(5/12 * 100%); }
+     .col-c-8{ flex-basis:calc(8/12 * 100%); max-width: calc(8/12 * 100%); }
+     .col-c-12{ flex-basis:calc(12/12 * 100%); max-width: calc(12/12 * 100%); }
+
+/*header*/
+
+.navbar{
+     display: none;
+}
+
+.bunside{
+     display: block;     
+     float: right;
+     width: 80px;
+     height: 40px;
+     background: transparent;
+     border: 2px solid;
+     border-color: #30265c;
+     margin-top: 40px;
+     margin-right: 40px;
+     border-radius: 10px;
+}
+.bunside .samp {
+    display:block;
+    height: 2px;
+    background: #30265c;
+    width: 70%;
+    margin: 5px auto;
+ }
+
+ /*ware1*/
+
+ .ware {
+     height: 397px;
+ }
+ .ware .bainertext h1 {
+     margin-top: 68px;
+     font-size: 31px;
+}
+.ware .bainertext p {
+     margin-top: 11px;
+     font-size: 21px;
+}
+.ware .bainertext .bun2 {
+     width: 220px;
+     margin-left: 51px;
+     margin-top: 50px;
+     font-size: 31px;
+ }
+ .ware2 .container .row img {
+     height: auto;
+ }
+ .ware2 .imagestext h2 {
+     margin-top: 35px;
+     font-size: 52px;
+ }
+ .ware2 .imagestext p {
+     font-size: 30px;
+ }
+ .ware2 .bun3{
+     height: 73px;
+     border-radius: 36px;
+     margin-left: 138px;
+ }
+
+/*ware3*/
+
+.ware3 {
+     height: 205px;
+}
+.ware3 .sedut h1 {
+     font-size: 24px;
+     margin-top: 58px;
+}
+.ware3 .sedut p {
+     font-size: 13px;
+     margin-top: 10px;
+ }
+
+/*ware4*/
+
+ .ware4 .loremimg img{
+     height: 325px;
+}
+.ware4 #imgcenter h1 {
+     font-size: 45px;
+ }
+.ware4 .loremtext h1 {
+     font-size: 45px;
+}
+
+/*ware5*/
+
+.ware5 .sedtutu h1 {
+     font-size: 19px;
+     margin-top: 105px;
+ }
+ .ware5 .sedtutu p{
+     font-size: 12px;
+ }
+ .ware5 .button4 .bun4 {
+     width: 186px;
+     height: 50px;
+     margin-left: -50px;
+     margin-top: 30px;
+     font-size: 26px;
+ }
+
+/*ware6*/
+
+ .ware6 .imgcenter img {
+     margin-top: -15px;
+ }
+ .ware6 .text1 p {
+     font-size: 14px;
+     margin-top: 10px;
+     margin-left: 18px;
+ }
+ .ware6 .text2 p {
+     margin-left: 18px;
+     font-size: 14px;
+     margin-top: 145px;
+}
+.ware6 .text3 p {
+     font-size: 18px;
+     margin-top: 10px;
+ }
+ .ware6 .text4 p {
+    margin-left: -5px;
+     font-size: 14px;
+     margin-top: 145px;
+ }
+
+ /*ware7*/
+
+ .ware7{
+     height: 209px;
+ }
+ 
+.ware7 input {
+     width: 215px;
+     height: 25px;
+     margin-bottom: 10px;
+ }
+ .textcenter h1 {
+     font-size: 35px;
+     margin-top: 25px;
+     margin-left: -18px;
+     margin-bottom: 0px;
+ }
+ .ware7 .bun5 {
+     width: 185px;
+     margin-left: 10px;
+     font-size: 24px;
+ }
+
+/*ware8*/
+
+.ware8{
+     height: 202px;
+}
+
+/*footer*/
+
+.loremlaft ul {
+     margin-top: 40px;
+ }
+ .loremlaft a {
+     font-size: 27px;
+ }
+ footer .alingcenter {
+     margin-top: 100px;
+ }
+ .alingcenter input {
+     width: 190px;
+     border-radius: 5px;
+}
+.footerbun {
+     height: 34px;
+     width: 118px;
+     font-size: 21px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.loremright a {
+     font-size: 20px;
+     padding: 0px 0px 0px 10px;
+ }
+ .loremright ul {
+     margin-top: 50px;
+ }
+ .loremright li {
+     text-align: center;
+     margin: 0px -10px 10px 0px;
+ }
+
+}
+@media(min-width: 769px) and (max-width: 992px){
+     .col-b-5{ flex-basis:calc(5/12 * 100%); max-width: calc(5/12 * 100%); }
+     .col-b-4{ flex-basis:calc(4/12 * 100%); max-width: calc(4/12 * 100%); }
+     .col-b-3{ flex-basis:calc(3/12 * 100%); max-width: calc(3/12 * 100%); }
+
+/*header*/
+
+     nav ul {
+          margin-left: -10px;
+      }
+
+/*ware1*/
+
+.ware {
+     background-size: cover;
+     height: 450px;
+ }
+
+ .ware .bainertext h1 {
+     margin-top: 65px;
+     font-size: 40px;
+ }
+ .ware .bainertext p {
+     margin-top: 15px;
+     font-size: 24px;
+ }
+ .ware .bainertext .bun2 {
+     width: 220px;
+     height: 55px;
+     margin-left: 60px;
+     margin-top: 60px;
+     font-size: 30px;
+ }
+
+ /*ware2*/
+
+ .ware2 .alingcenter h1 {
+     font-size: 43px;
+     margin-top: 25px;
+     margin-bottom: 0px;
+ }
+ .ware2 .imagestext h2 {
+     text-align: left;
+     color: #000;
+     margin-top: 25px;
+     font-size: 23px;
+ }
+ .ware2 .imagestext p {
+     text-align: left;
+     color: #000;
+     margin-top: 15px;
+     font-size: 14px;
+ }
+ .ware2 .bun3 {
+     width: 270px;
+     margin-left: 255px;
+     font-size: 30px;
+ }
+
+ /*ware3*/
+
+ .ware3 {
+     height: 255px;
+ }
+
+ .ware3 .sedut h1 {
+     font-size: 30px;
+     margin-top: 45px;
+ }
+ .ware3 .sedut p {
+     font-size: 16px;
+     margin-top: 35px;
+ }
+
+ /*ware5*/
+
+ .ware5 .sedtutu h1 {
+     font-size: 28px;
+     margin-top: 160px;
+}
+.ware5 .sedtutu p {
+     font-size: 18px;
+ }
+
+
+ .ware5 .button4 .bun4 {
+     margin-top: 40px;
+     font-size: 34px;
+ }
+
+/*ware6*/
+
+ .ware6 .text1 p {
+     font-size: 21px;
+     margin-top: 110px;
+ }
+ .ware6 .text3 p {
+     font-size: 22px;
+     margin-top: 110px;
+ }
+ .ware6 .text4 p {
+    font-size: 21px;
+ }
+
+ /*ware7*/
+
+ .ware7{
+     height: 251px;
+ }
+ .textcenter h1 {
+     margin-top: 31px;
+     margin-bottom: 5px;
+ }
+ .ware7 input{
+     width: 290px;
+     margin-bottom: 13px;
+ }
+
+ /*ware8*/
+
+ .ware8{
+     height: 242px;
+ }
+
+ /*footer*/
+
+ .alingcenter input {
+     width: 278px;
+}
+.footerbun {
+     width: 130px;
+     margin-top: 15px;
+     font-size: 24px;
+ }
+ .col-12text p {
+     font-size: 13px;
+ }
+
+
+}
+@media(min-width: 993px) and (max-width: 1200px){
+
+/*header*/
+
+.navbar ul {
+     margin-left: 90px;
+ }
+
+/*ware1*/
+
+     .ware {
+     
+          height: 570px;
+      }
+     
+     .bainertext h1{
+          margin-top: 65px;
+     }
+
+/*ware2*/
+
+.imagestext p{
+     font-size: 17px;
+}
+.bun3{
+     margin-top: 65px;
+     margin-left: 310px;
+     font-size: 37px;
+}
+
+/*ware3*/
+
+.ware3{
+     height: 325px;
+}
+.sedut p {
+     font-size: 22px;
+}
+
+/*ware5*/
+
+.ware5{
+     height: 655px;
+}
+
+.sedtutu h1 {
+     font-size: 35px;
+     margin-top: 185px;
+ }
+ .sedtutu p {
+     font-size: 24px;
+}
+.button4 .bun4{
+     margin-top: 75px;
+}
+.sedtutuimg img{
+     height: 510px;
+}
+
+/*ware7*/
+
+.ware7{
+     height: 318px;
+}
+
+/*ware8*/
+
+.ware8{
+     height: 307px;
+}
+
+/*footer*/
+
+.col-12text p{
+     font-size: 15px;
+}
+
+}
+@media(min-width: 1201px) and (max-width: 1800px){}
+@media(min-width: 1801px){}
+
+
