@@ -104,6 +104,10 @@ nav {
      height: 65px ;
      margin: -16px 20px 0px 31px ;
 }
+.bun:hover{
+    background-color: #b4a8a8;
+    color: #910115;
+}
 
 /*socson*/
 
@@ -133,6 +137,11 @@ nav {
     border: none;
     margin-top: 99px;
     font-size: 33px ;
+    font-weight: 600;
+}
+.ware .bainertext .bun2:hover{
+    background-color: #f7e9e9ce;
+    color: #f03f09de;
 }
 
 /*socson2*/
@@ -180,6 +189,10 @@ nav {
     margin-top: 40px;
     font-size: 42px ;
     margin-bottom: 50px;
+}
+.ware2 .bun3:hover{
+    background-color: #b9adad;
+    color: #910115;
 }
 
 /*socson3*/
@@ -261,6 +274,10 @@ nav {
     border: none;
     margin-top: 17px;
     font-size: 40px ;
+}
+.ware5 .button4 .bun4:hover{
+    background-color: #d3bdbd;
+    color: #910115;
 }
 
 .ware5 .sedtutuimg img{
@@ -371,6 +388,10 @@ nav {
      margin: 0px 0px 0px 73px ;
      font-size: 19px;
 }
+.bun5:hover{
+    background-color: #e0c6c6;
+    color: #910115;
+}
 
 /*socson8*/
 
@@ -415,7 +436,12 @@ footer{
      font-size: 20px;
      background-color: #910115;
      border: none;
+     font-weight: 600;
      color: #fff;
+}
+.footerbun:hover{
+    background-color: #f0dddd;
+    color: #910115;
 }
 .loremright ul{
      margin-top: 108px;
@@ -441,7 +467,7 @@ footer{
     margin-top: 49px;
 }
 
-/*Risonsiv.style*/
+/*Risponsiv.style*/
 
 @media(max-width: 425px){
      
@@ -454,10 +480,43 @@ footer{
 
 /*header*/
 
-.navbar{
-     display: none;
+.bundiv{
+    display: none;
 }
-
+.navbar{
+    display: none;
+}
+nav ul li a {
+    font-size: 25px;
+    text-shadow: 3px 2px 0px black;
+}
+nav ul {
+    margin: 10px 0px 10px 10px;
+}
+nav ul li {
+    margin: 7px;
+}
+nav{
+    margin-top: 80px;
+    background-color: #0000009a;
+}
+header{
+    height: 98px;
+}
+.logo {
+    border-radius: 50%;
+    height: 75px;
+}
+.logo h3{
+    padding-top: 13px;
+}
+.logo h1 {
+    font-size: 15px;
+}
+.logo h2 {
+    margin-top: -20px;
+    font-size: 14px;
+}
 .bunside{
      display: block;     
      float: right;
@@ -466,7 +525,7 @@ footer{
      background: transparent;
      border: 2px solid;
      border-color: #30265c;
-     margin-top: 40px;
+     margin-top: 28px;
      margin-right: 10px;
      border-radius: 10px;
 }
@@ -515,7 +574,7 @@ footer{
      font-size: 25px;
  }
  .ware2 .imagestext p {
-     font-size: 18px;
+     font-size: 14px;
  }
  .ware2 .bun3 {
      width: 145px;
@@ -532,11 +591,11 @@ footer{
      height: 109px;
  }
  .ware3 .sedut h1 {
-     font-size: 13px;
+     font-size: 14px;
      margin-top: 25px;
  }
  .ware3 .sedut p {
-     font-size: 6px;
+     font-size: 7px;
      margin-top: 12px;
  }
 
@@ -547,23 +606,23 @@ footer{
      margin-top: 30px;
  }
  .ware4 .loremtext h1 {
-     font-size: 9px;
+     font-size: 7px;
      margin-top: 26px;
      margin-bottom: 20px;
  }
  .ware4 #imgcenter h1 {
-     font-size: 9px;
+     font-size: 7px;
  }
 
 /*ware5*/
 
 .ware5 .sedtutu h1 {
-     font-size: 17px;
+     font-size: 13px;
      margin-top: 75px;
  }
 
  .ware5 .sedtutu p {
-     font-size: 6px;
+     font-size: 9px;
      margin-top: 8px;
  }
 
@@ -573,6 +632,7 @@ footer{
      margin-left: -50px;
      font-size: 11px;
      margin-top: 15px;
+     margin-bottom: 15px;
  }
  .ware5 .sedtutuimg img {
      margin-top: 70px;
@@ -591,67 +651,70 @@ footer{
      margin-bottom: 30px;
  }
  .ware6 .text1 p {
-     font-size: 10px;
+     font-size: 7px;
      margin-top: 20px;
  }
  .ware6 .text2 p {
-     font-size: 10px;
+     font-size: 7px;
      margin-top: 50px;
  }
  .ware6 .text3 p {
-     font-size: 10px;
+     font-size: 7px;
      margin-top: 20px;
  }
  .ware6 .text4 p {
-     font-size: 10px;
+     font-size: 7px;
      margin-top: 50px;
  }
 
  /*ware7*/
 
 .ware7{
-     height: 108px;
+     height: 85px;
 }
  .ware7 .textcenter h1 {
-     font-size: 18px;
-     margin-top: 8px;
-     margin-bottom: -7px;
+     font-size: 15px;
+     margin-top: 5px;
+     margin-bottom: -10px;
  }
  .ware7 input {
-     width: 125px;
-     height: 17px;
-     margin-bottom: 3px;
-     font-weight: 700;
-     font-size: 10px;
+     width: 105px;
+     height: 15px;
+     margin-bottom: 0px;
+     font-weight: 500;
+     font-size: 7px;
      padding: 0px 0px 0px 10px;
  }
  .bun5 {
-     width: 100px;
-     height: 22px;
-     margin: 3px 0px 0px 16px;
-     font-size: 15px;
+    width: 85px;
+    height: 17px;
+    margin: 4px 0px 0px 13px;
+    font-size: 13px;
  }
 
  /*ware8*/
 
  .ware8 {
-     height: 104px;
+     height: 76px;
  }
 
  /*footer*/
 
 footer{
-     height: 275px;
+     height: 230px;
 }
 
  .loremlaft ul {
      margin-top: 20px;
  }
+ .loremlaft li {
+    padding: 1px;
+}
  .loremlaft a {
-     font-size: 11px;
+     font-size: 8px;
  }
  .alingcenter input {
-     width: 105px;
+     width: 80px;
      height: 25px;
      font-size: 12px;
      border-radius: 5px;
@@ -677,11 +740,11 @@ footer{
      font-size: 10px;
  }
  .loremright a {
-     font-size: 11px;
+     font-size: 5px;
      padding: 0px;
  }
  .col-12text p {
-     font-size: 13px;
+     font-size: 10px;
      margin-top: 20px;
  }
 
@@ -696,8 +759,26 @@ footer{
 
 /*header*/
 
+
+.bundiv{
+    display: none;
+}
 .navbar{
-     display: none;
+    display: none;
+}
+nav ul {
+    margin-left: 15px;
+}
+nav {
+    display: flex;
+    margin: 105px 0px 0px 110px;
+    background-color: #0000009a;
+}
+nav ul li {
+    margin: 10px;
+}
+nav ul li a {
+    text-shadow: 3px 2px 0px black;
 }
 
 .bunside{
@@ -752,7 +833,7 @@ footer{
  .ware2 .bun3{
      height: 73px;
      border-radius: 36px;
-     margin-left: 138px;
+     margin-left: 80px;
  }
 
 /*ware3*/
@@ -772,13 +853,14 @@ footer{
 /*ware4*/
 
  .ware4 .loremimg img{
-     height: 325px;
+     height: 210px;
+     margin-top: 45px;       
 }
 .ware4 #imgcenter h1 {
-     font-size: 45px;
+     font-size: 20px;
  }
 .ware4 .loremtext h1 {
-     font-size: 45px;
+     font-size: 20px;
 }
 
 /*ware5*/
