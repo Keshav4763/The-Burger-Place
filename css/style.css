@@ -498,7 +498,7 @@ nav ul li {
 }
 nav{
     margin-top: 80px;
-    background-color: #0000009a;
+    background-color: #265c55f0;
 }
 header{
     height: 98px;
@@ -878,6 +878,7 @@ nav ul li a {
      margin-left: -50px;
      margin-top: 30px;
      font-size: 26px;
+     margin-bottom: 20px;
  }
 
 /*ware6*/
